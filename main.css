@@ -1,0 +1,378 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+::selection {
+    background-color: #f26227!important;
+    color: #fff!important;
+}
+body{
+    background-color: #f9f9ff;
+    opacity: 0.9;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif!important;
+    color: #fff;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600!important;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+p{opacity: 0.8;}
+.header-top{
+    background: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all 0.5s;
+    z-index: 1000;
+    padding: 8px;
+}
+.header-below{
+    background:#f26224;
+    text-transform: uppercase;
+    height: 74px;
+    box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3); 
+    position: fixed;
+    top: 35px;
+    width: 100%;
+    transition: all 0.5s;
+    z-index: 1000;
+}
+.smal{
+    font-size: 100%;
+    font-weight: 645;
+}
+.header-below img{
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: -38px;
+}
+.d-inline-block h1{
+    font-size: 28px;
+    margin-top: 10px;
+    word-spacing: 12px;
+    letter-spacing: 6px;
+    margin: 0;
+}
+.d-inline-block span{
+    letter-spacing: 0px;
+    font-size: 12.5px;  
+}
+.nav-link{
+    color:#fff;
+}
+.nav-link:hover{
+    color:#000!important;
+}
+.btn-link{
+    color:#000!important;
+}
+.card{
+    border-style:none!important;
+}
+.footer-area {
+    background: #4e1700;
+    padding-top: 100px;
+    color:#fff;
+}
+.link a{
+    display: block;
+    color: white!important;
+    text-align: center;
+}
+
+/* form completion */
+.discount-section-area {
+    background: url("img/down.jpeg") center;
+    background-size: cover;
+}
+.section-gap {
+    padding: 20px 0;
+}
+.relative {
+    position: relative;
+}
+.discount-section-area .overlay-bg {
+    opacity: .9;
+}
+.discount-section-area .overlay-bg {
+    background-image: -moz-linear-gradient(0deg, #a8771e, #f26227 100%);
+    background-image: -webkit-linear-gradient(0deg, #a8771e, #f26227 100%);
+    background-image: -ms-linear-gradient(0deg, orange, #f26227 100%);
+}
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.discount-section-area .discount-right h4 {
+    text-align: center;
+    margin-bottom: 15px
+}
+
+.discount-section-area .discount-right .form-control {
+    padding: 10px;
+    border-radius: 0;
+    background: transparent;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 13px;
+    font-weight: 300
+}
+
+.discount-section-area .discount-right .form-control::placeholder {
+    color: #000
+}
+
+.discount-section-area .discount-right .form-control:focus {
+    box-shadow: none !important
+}
+
+.discount-section-area .discount-right .genric-btn {
+    font-size: 14px
+}
+
+.discount-section-area .discount-right .genric-btn:hover {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff
+}
+.flex-column {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.flex-column {
+    flex-direction: column !important;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+.text-drk{
+    color:#000;
+}
+.discount-section-area .discount-right .genric-btn {
+    font-size: 14px;
+}
+.genric-btn.primary {
+    color: #000;
+    background: #fff;
+    border: 1px solid transparent;
+}
+.genric-btn {
+    display: inline-block;
+    outline: none;
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: .8em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.opacity{
+    opacity: 0.6;
+}
+.opacity img{
+    border-radius: 50%;
+}
+.opacity:hover img{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.opacity:hover{
+    opacity: 1;
+}
+
+
+/* our team */
+
+.ch-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+}
+
+.ch-grid:after {
+	clear: both;
+}
+
+.ch-grid li {
+	width: 220px;
+	height: 220px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	-webkit-perspective: 900px;
+	-moz-perspective: 900px;
+	-o-perspective: 900px;
+	-ms-perspective: 900px;
+	perspective: 900px;
+}
+.ch-info{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+.ch-info > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-position: center center;
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+	-webkit-transform-origin: 50% 0%;
+	-moz-transform-origin: 50% 0%;
+	-o-transform-origin: 50% 0%;
+	-ms-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+}
+
+/* .ch-info .ch-info-front {
+	box-shadow: inset 0 0 0 16px rgba(0,0,0,0.3);
+} */
+
+.ch-info .ch-info-back {
+	-webkit-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	-moz-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	-o-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	-ms-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	background: #f26224;
+	opacity: 0;
+}
+
+.ch-img-1 {
+    background-image: url(img/photo_santosh.jpg);
+    background-size: 220px 220px;
+    background-repeat: no-repeat;
+}
+
+.ch-img-2 {
+    background-image: url(img/photo_pasang.jpg);
+    background-size: 220px 220px;
+    background-repeat: no-repeat;
+}
+
+.ch-img-3 {
+    background-image: url(img/photo_rebecca.jpg);
+    background-size: 220px 220px;
+    background-repeat: no-repeat;
+}
+
+.ch-img-4 {
+    background-image: url(img/photo_simit.jpg);
+    background-size: 220px 220px;
+    background-repeat: no-repeat;
+}
+.ch-img-5 {
+    background-image: url(img/photo_bishal.jpg);
+    background-size: 220px 220px;
+    background-repeat: no-repeat;
+}
+.ch-img-6 {
+    background-image: url(img/photo_bikash.jpg);
+    background-size: 220px 220px;
+    background-repeat: no-repeat;
+}
+.ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 20px;
+	margin: 0 15px;
+	padding: 45px 0 0 0;
+	height: 80px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow:
+		0 0 1px #fff,
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+	color: #fff;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.ch-info p a{
+    display: inline-block;
+	color: #fff;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+	color: #fff222;
+	color: rgba(255,242,34, 0.8);
+}
+
+.ch-item:hover .ch-info-front {
+	-webkit-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	-moz-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	-o-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	-ms-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	opacity: 0;
+}
+
+.ch-item:hover .ch-info-back {
+	-webkit-transform: rotate3d(1,0,0,0deg);
+	-moz-transform: rotate3d(1,0,0,0deg);
+	-o-transform: rotate3d(1,0,0,0deg);
+	-ms-transform: rotate3d(1,0,0,0deg);
+	transform: rotate3d(1,0,0,0deg);
+	opacity: 1;
+}
